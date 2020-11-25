@@ -1,0 +1,29 @@
+name: retool db
+type: postgresql
+host: postgres
+port: '5432'
+databaseName: hammerhead_production
+databaseUsername: retool_internal_user
+databasePassword: >-
+  __RETOOL_ENCRYPTED__(aa1ee51ce00f22dee7790a2a6996a61b3902f53468d9363be7cab8c10e92160fafdfcc0ee1bd2ea87ac9f3ea30d059270093600cf838f8c879b26a268ef25a0e7b328e29e2fc827fee70ad4d8a91a055)
+ssl: false
+editPrivilege: false
+options:
+  sshHost: ''
+  version: SqlQueryUnified
+  sshPassword: ''
+  sshUsername: ''
+  connectionString: ''
+  queryEditorModes:
+    allowGuiMode: true
+    allowSqlMode: true
+  sshTunnelEnabled: false
+  sshPrivateKeyName: ''
+  credentialPrivileges:
+    allowRead: true
+    allowWrite: true
+updatedAt: 2020-11-21T14:17:45.924Z
+createdAt: 2020-11-21T14:17:45.924Z
+environment: production
+dynamicallyQueryable: false
+version: '1.0'
